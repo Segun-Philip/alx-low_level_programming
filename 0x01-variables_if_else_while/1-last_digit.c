@@ -4,7 +4,7 @@
 /**
  * main - Entry Point
  *
- * Description: assigns random number to variable n
+ * Description: prints last digit of variable n
  *
  * Return: Always 0 (success)
  */
