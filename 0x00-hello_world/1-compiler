@@ -1,3 +1,7 @@
 #!/bin/bash
+<<<<<<< HEAD
 gcc $CFILE -o CFILE.o
 
+=======
+gcc $CFILE -o main.o
+>>>>>>> 00ddfadfc54bc694786ee4745fbb82d7595e640e
