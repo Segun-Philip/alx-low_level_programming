@@ -2,9 +2,9 @@
 #include <unistd.h>
 
 /**
- * main
+ * main: return 1
  *
- * Description: 
+ * Description: print stderr
  *
  * Return: Always 1 (Success)
  */
