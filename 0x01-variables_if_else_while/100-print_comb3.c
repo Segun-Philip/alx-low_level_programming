@@ -1,30 +1,36 @@
 #include <stdio.h>
 
 /**
- * main - print double digit combos
+ * main - Entry
  *
  * Description: print double digit combos
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int i, j;
-	
-	for (i = 48; i < 58; i++)
+
+	i = 48;
+	j = 48;
+
+	while (i < 58)
 	{
 		j = i + 1;
-		for(j = 48; j < 58; j++)
+		while (j < 58)
 		{
 			putchar(i);
 			putchar(j);
 
-			if (i  < 56 || j < 57)
+			if (i < 56 || j < 57)
 			{
 				putchar(44);
 				putchar(32);
 			}
+			j++;
 		}
+
+		i++;
 	}
 
 	putchar(10);
