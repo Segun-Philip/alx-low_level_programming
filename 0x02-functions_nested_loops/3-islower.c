@@ -2,7 +2,9 @@
 
 /**
  * _islower - return 1 or 0
- * 
+ *
+ *@c: first param
+ *
  * Description: prints all lowercase letters
  *
  * Return: (0)
