@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- * _memset - function that fills the first bytes
- * s: pointer
- * b: character variable
- * n: unsigned int
+ * _memset - fills memory with bytes
+ * @s: pointer
+ * @b: character variable
+ * @n: unsigned int
+ * Return: the pointer to dest
  *
  */
 
