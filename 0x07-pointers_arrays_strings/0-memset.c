@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * *_memset - function that fills the first bytes
+/**
+ * _memset - function that fills the first bytes
  * s: pointer
  * b: character variable
  * n: unsigned int
